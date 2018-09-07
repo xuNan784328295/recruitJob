@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+    <parent>
+        <artifactId>zhaopin.config</artifactId>
+        <groupId>hanvon.zhaopin</groupId>
+        <relativePath>../zhaopin.config/pom.xml</relativePath>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>zhaopin.web</artifactId>
+    <packaging>war</packaging>
+    <name>Web</name>
+    <url>http://www.hanvon.com</url>
+    <description>zhaopin.web</description>
+
+    <dependencies>
+        <!--<dependency>-->
+        <!--<groupId>org.apache.cxf</groupId>-->
+        <!--<artifactId>cxf-rt-frontend-jaxws</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+        <!--<groupId>org.apache.cxf</groupId>-->
+        <!--<artifactId>cxf-rt-transports-http</artifactId>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>hanvon.zhaopin</groupId>
+            <artifactId>zhaopin.server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>hanvon.zhaopin</groupId>
+            <artifactId>zhaopin.common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.8.2</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>zhaopin.web</finalName>
+        <!--<directory>${output.target}\${artifactId}</directory>-->
+        <!--<outputDirectory>${output}\${artifactId}</outputDirectory>-->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <warSourceExcludes>js/angular/**,js/angular2/**,js/dojo/**</warSourceExcludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+            </plugin>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.5</version>
+                <configuration>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
