@@ -8,6 +8,6 @@ import java.util.List;
 public interface PositioninfoDsm {
 
     List<Positioninfo> searchByTerm(@Param("search") String search,
-                                    @Param("area")String area,
-                                    @Param("category")String category);
+                                    @Param("area") String area,
+                                    @Param("category") String category);
 }

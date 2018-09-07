@@ -91,7 +91,19 @@ public class BaseAction extends ActionSupport implements SessionAware, ServletRe
         return response;
     }
 
-/*
+    /**
+     * 获取当前用户
+     */
+    public SessionalUser getSessionUser() {
+        if (session == null) {
+            return null;
+        }
+
+        //web层的SessionUtils工具类
+        return (SessionalUser) session.get(SessionUtils.KEY_SESSIONAL_USER);
+    }
+
+    /*
     页面跳转
  */
     public void forward(String url)  {
@@ -103,18 +115,6 @@ public class BaseAction extends ActionSupport implements SessionAware, ServletRe
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-    /**
-     * 获取当前用户
-     */
-    public SessionalUser getSessionUser() {
-        if (session == null) {
-            return null;
-        }
-
-        //web层的SessionUtils工具类
-        return (SessionalUser) session.get(SessionUtils.KEY_SESSIONAL_USER);
     }
 
     /**

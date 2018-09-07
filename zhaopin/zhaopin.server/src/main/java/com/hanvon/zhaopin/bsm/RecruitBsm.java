@@ -3,7 +3,6 @@ package com.hanvon.zhaopin.bsm;
 
 import com.hanvon.zhaopin.tpm.recruit.Positioninfo;
 
-import java.util.Date;
 import java.util.List;
 
 /**

@@ -53,9 +53,9 @@ public class AuthorizationFilter implements Filter
             session.removeAttribute(SessionUtils.KEY_SESSIONAL_USER);
             return;
         }
-//        //处理非ajax请求
-//        if(!isAjaxRequest(request)) {
-//            //未登录或登陆超时
+        //处理非ajax请求
+        if(!isAjaxRequest(request)) {
+            //未登录或登陆超时
 //            if(session.getAttribute(SessionUtils.KEY_SESSIONAL_USER) == null) {
 //                if(!uri.endsWith("/login.html")) {
 //                    response.sendRedirect(contentPath + loginUrl);
@@ -65,7 +65,7 @@ public class AuthorizationFilter implements Filter
 //                    response.sendRedirect(contentPath + indexUrl);
 //                    return;
 //            }
-//        }
+        }
 
         filterChain.doFilter(servletRequest, servletResponse);
     }

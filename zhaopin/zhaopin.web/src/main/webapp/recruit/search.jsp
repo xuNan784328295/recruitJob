@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 pageEncoding="utf-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -52,7 +51,7 @@ pageEncoding="utf-8"%>
 				            <ul>
 								<li><a href="elements.html">elements</a></li>
 								<li><a href="search.jsp">search</a></li>
-								<li><a href="single.jsp">single</a></li>
+								<li><a href="single.html">single</a></li>
 				            </ul>
 				          </li>
 				          <li><a class="ticker-btn" href="#">Signup</a></li>
@@ -87,7 +86,7 @@ pageEncoding="utf-8"%>
 									<div class="details">
 										<div class="title d-flex flex-row justify-content-between">
 											<div class="titles">
-												<a href="/recruit/single.whtml?id=${e.id}"><h4>Creative Art Designer</h4></a>
+												<a href="single.html"><h4>Creative Art Designer</h4></a>
 												<h6>Premium Labels Limited</h6>
 											</div>
 											<ul class="btns">
@@ -96,13 +95,12 @@ pageEncoding="utf-8"%>
 											</ul>
 										</div>
 										<p>
-												${e.search}
+												${e.position}
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
 										</p>
-										<h5>
-											<fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${e.timestamp}" />
-										</h5>
-										<p class="address"><span class="lnr lnr-map"></span> ${e.areainfo}</p>
-										<p class="address"><span class="lnr lnr-database"></span> ${e.minsalary} - ${e.maxsalary}</p>
+										<h5>Job Nature: Full time</h5>
+										<p class="address"><span class="lnr lnr-map"></span> 56/8, Panthapath Dhanmondi Dhaka</p>
+										<p class="address"><span class="lnr lnr-database"></span> 15k - 25k</p>
 									</div>
 								</div>
 							</c:forEach>
