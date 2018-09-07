@@ -1,16 +1,342 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="zhaopin.web:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb34a893-fe1f-43b3-a5e4-a3f27d294ed5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.common/target/classes/com/hanvon/zhaopin/tpm/recruit/Positioninfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.common/target/classes/com/hanvon/zhaopin/types/SessionalUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.common/target/classes/com/hanvon/zhaopin/utils/TheApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.common/target/zhaopin.common-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.server/src/main/java/com/hanvon/zhaopin/bsm/RecruitBsm.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin.server/src/main/java/com/hanvon/zhaopin/bsm/RecruitBsm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.server/src/main/java/com/hanvon/zhaopin/dsm/PositioninfoDsm.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin.server/src/main/java/com/hanvon/zhaopin/dsm/PositioninfoDsm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.server/src/main/java/com/hanvon/zhaopin/web/action/BaseAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin.server/src/main/java/com/hanvon/zhaopin/web/action/BaseAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.server/src/main/java/com/hanvon/zhaopin/web/action/RecruitAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin.server/src/main/java/com/hanvon/zhaopin/web/action/RecruitAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.server/src/main/java/com/hanvon/zhaopin/web/filter/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin.server/src/main/java/com/hanvon/zhaopin/web/filter/AuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.server/target/classes/com/hanvon/zhaopin/asm/RecruitAsm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.server/target/classes/com/hanvon/zhaopin/asm/impl/RecruitAsmImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.server/target/classes/com/hanvon/zhaopin/bsm/RecruitBsm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.server/target/classes/com/hanvon/zhaopin/bsm/impl/RecruitBsmImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/src/main/webapp/recruit/price.html" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin.web/src/main/webapp/recruit/price.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/src/main/webapp/recruit/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin.web/src/main/webapp/recruit/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/src/main/webapp/recruit/single.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/classes/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/classes/spring/application-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/classes/spring/application-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/classes/spring/application-mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/classes/spring/application-quartz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/classes/spring/mvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/classes/struts/LoginAction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/classes/struts/RecruitAction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/classes/struts/TestAction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/classes/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/classes/spring/application-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/classes/spring/application-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/classes/spring/application-mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/classes/spring/application-quartz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/classes/spring/mvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/asm-commons-3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/libs/utils/HWNormFtr-2.6.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/libs/utils/HWNormFtr-2.6.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/libs/utils/HWNormFtr-3.1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/libs/utils/HWNormFtr-3.1.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/libs/utils/libLFace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/libs/utils/libLFace.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/libs/utils/libutils.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/log4j-1.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/log4j-api-2.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/log4j-core-2.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/lucene-analyzers-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/lucene-core-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/lucene-highlighter-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/lucene-memory-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/mail-1.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/mina-core-2.0.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/mina-filter-ssl-1.1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/mina-integration-beans-2.0.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/mina-integration-spring-1.1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/mybatis-3.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/mybatis-spring-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/mysql-connector-java-5.1.24.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/ognl-3.0.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/ojdbc7-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/poi-3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/poi-ooxml-3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/poi-ooxml-schemas-3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/proton-0.3.0-fuse-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/proton-api-0.3.0-fuse-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/proton-jms-0.3.0-fuse-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/quartz-1.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/serializer-2.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/sitemesh-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/slf4j-nop-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-aop-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-beans-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-context-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-context-support-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-core-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-expression-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-jdbc-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-jms-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-orm-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-tx-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-web-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/spring-webmvc-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/sqljdbc4-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/struts2-convention-plugin-2.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/struts2-core-2.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/struts2-json-plugin-2.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/struts2-junit-plugin-2.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/struts2-sitemesh-plugin-2.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/struts2-spring-plugin-2.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/thumbnailator-0.4.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/velocity-1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/xalan-2.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/xbean-spring-3.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/xercesImpl-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/xinge-1.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/xml-apis-1.3.02.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/xmlParserAPIs-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/xmlbeans-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/xom-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/xwork-core-2.3.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/zhaopin.common-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/lib/zhaopin.server-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/notfound.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/about-us.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/blog-home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/blog-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/css/bootstrap.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/css/bootstrap/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/css/bootstrap/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/css/bootstrap/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/css/jquery.DonutWidget.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/css/jquerysctipttop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/blog-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/l1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/l2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/l3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/l4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/next.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/p4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/prev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/r1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/r2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/r3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/r4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/s-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/slider.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog/user2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/d1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/disabled-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/disabled-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/g1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/g2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/g3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/g4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/g5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/g6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/g7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/g8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/primary-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/primary-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/success-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/elements/success-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/header-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/i1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/i2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/i3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/i4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/i5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/i6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/i7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/i8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/o1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/o2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/o3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/o4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/o5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/o6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/p1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/p2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/pages/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/pages/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/pages/list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/pages/t1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/pages/t2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/pages/t3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/pages/t4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/play-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/post.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/r1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/r1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/img/r2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/scss/theme/_elements.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/scss/theme/_flexbox.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/scss/theme/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/scss/theme/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/scss/theme/_home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/scss/theme/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/scss/theme/_pages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/scss/theme/_reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/scss/theme/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaopin.web/target/zhaopin.web/recruit/single.jsp" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/zhaopin.config/target/" />
+    <ignored path="$PROJECT_DIR$/zhaopin.server/target/" />
+    <ignored path="$PROJECT_DIR$/zhaopin.common/target/" />
+    <ignored path="$PROJECT_DIR$/zhaopin.web/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1114337055">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="386" />
     <option name="y" value="35" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zhaopin.project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhaopin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
@@ -85,6 +411,69 @@
         </option>
       </method>
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb34a893-fe1f-43b3-a5e4-a3f27d294ed5" name="Default Changelist" comment="" />
+      <created>1536292569275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536292569275</updated>
+      <workItem from="1536292574509" duration="294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="294000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32907802" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32907802" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="JSF" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="CDI" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="masterDetails">
     <states>
