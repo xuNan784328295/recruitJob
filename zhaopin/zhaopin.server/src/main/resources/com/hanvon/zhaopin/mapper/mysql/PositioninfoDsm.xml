@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- WebService TOKEN -->
+<mapper namespace="com.hanvon.zhaopin.dsm.PositioninfoDsm">
+    <select id="searchByTerm" resultType="com.hanvon.zhaopin.tpm.recruit.Positioninfo">
+        select  * from positioninfo where  area = #{area} and category =#{category}
+              <if test="search != null" >
+                and   search like "%"  #{search} "%"
+              </if>
+    </select>
+</mapper> 
